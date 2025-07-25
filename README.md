@@ -1,4 +1,4 @@
-## Arrkiii Latest
+## all in one Latest
 
 A feature-rich, modern Discord bot with a beautiful UI, best-in-class music system, advanced moderation, and automation tools. Built with the latest JavaScript libraries and MongoDB for performance and reliability.
 
@@ -71,14 +71,14 @@ async function welcomeBanner(user) {
 }
 ```
 
-# Example Anti-Nuke
+## Example Anti-Nuke
 ```
 client.on('guildMemberRemove', async (member) => {
   // Detect mass kicks/bans and take action
 });
 ```
 
-# Example Auto-Responder
+## Example Auto-Responder
 ```
 const triggers = [{ phrase: 'hello', response: 'Hi there!' }];
 client.on('messageCreate', msg => {
@@ -87,19 +87,19 @@ client.on('messageCreate', msg => {
 });
 ```
 
-# Installation
+## Installation
 
-## 1. Clone the repo
+### 1. Clone the repo
 ```
 git clone https://github.com/ozumaly/Arrkiii.git
 ```
 
-## 2. Install dependencies
+### 2. Install dependencies
 ```
 npm install
 ```
 
-## 3. Configure .env
+### 3. Configure .env
 ```
 TOKEN=your_discord_token
 MONGO_URI=your_mongodb_uri
@@ -107,18 +107,18 @@ SPOTIFY_ID=your_spotify_id
 SPOTIFY_SECRET=your_spotify_secret
 ```
 
-## 4. Start the bot
+### 4. Start the bot
 ```
 node Shard.js
 ```
-# Credits
+## Credits
 - Developed by: 9vxk
 - Contributor: ofcyourmanas
 - Support: https://discord.gg/urV9mkfW9t
 - Partners & Hoster: https://vps.ofcyourmanas.xyz
 
-# Requirements
+## Requirements
 - Node.js v20+
 - Lavalink server for music features
 
-# Enjoy a premium, Arrkiii experience!
+## Enjoy a premium, Arrkiii experience!
